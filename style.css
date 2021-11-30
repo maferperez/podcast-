@@ -1,0 +1,223 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  .contenedor {
+    width: 100%;
+    max-width: 100%;
+    margin:0 auto;
+    background: white;
+    overflow: hidden;
+  }
+  #bolita-azul {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align:center;
+    display: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    }
+  #textos {
+    text-align: right;
+    margin-right: 100px;
+    transform: translate(0, -26px);
+    }
+  #tachada {
+      text-decoration: line-through;
+    }
+  h1{
+    transform: translate(170px, 0);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 64px;
+    margin-top: 200px;
+    }
+  h4{
+    margin-left: 170px;
+    padding: 5px;
+    font-family: "IBM Plex Mono",sans-serif;
+    font-size: 16px;
+    width: 628px;
+    height: 48px;
+  
+    }
+  #punto{
+    font-family: IBMPlexSans;
+    font-size: 64px;
+    color: #0000EC;
+    letter-spacing: 0;
+    }
+  a {
+    font-family: "IBM Plex Mono",sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    color: black;
+    }
+  #conoce {
+    background-color: #00F3BB;
+    font-family: "IBM Plex Mono", sans-serif;
+    color: black;
+    border: 0;
+    padding: 16px 59px 16px 59px;
+    font-size: 18px;
+    transform: translate(170px, 0);
+    margin-top: 56px;
+    position: relative;
+  }
+  #escucha{
+    background-color: #00F3BB;
+    font-family: "IBM Plex Mono", sans-serif;
+    color: black;
+    border: 0;
+    padding: 16px 59px 16px 59px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  #phone{
+    float: right;
+    height: 204px;
+    width: 464px;
+    position: relative;
+    margin-top: -350px;
+    margin-right: 150px;
+    }
+  #fotophone img {
+    margin-top: -200px;
+    position: relative;
+    height: 550px;
+    width: 350px;
+    margin-left: 160px;
+    }
+  h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    margin-right: -30px;
+  }
+  p {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    }
+  
+  h5 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    margin-top: 70px;
+    padding: 30px;
+    margin-left: 150px;
+  }
+  .mujeres{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    margin-left: inherit;
+    }
+  .mujeres img{
+    width: 430px;
+    height: auto;
+  }
+  .mujeres2{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+  }
+  .mujeres2 img{
+    width: 430px;
+    height: auto;
+  }
+  
+  #exterior {
+    width: auto;
+    height: 1042px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    margin-top: 10px;
+    position: relative;
+    margin-top: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    clip-path: polygon(0 8%, 100% 0%, 100% 91%, 0% 100%);
+  }
+  #interior {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: 10px;
+    }
+  
+  .iconoslineas {
+    display: flex;
+    margin-left: 200px;
+    font-family: "IBM Plex Sans-Semi Bold",sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+    }
+  figcaption {
+    position: relative;
+    font-size: 24px;
+    margin-left: 20 px;
+    }
+  #exterior2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  #interior2{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    }
+  h2{
+    margin-top: 50px;
+    margin-left: 115px;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    position: absolute;
+    }
+  .fotosembed img{
+    padding: 30px;
+    margin-top: 100px;
+    height: 220px;
+    width: auto;
+    margin-left: -25px;
+  }
+  .fotosembed1 {
+    margin-top: -100px;
+  
+  }
+  h6{
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    position: relative;
+    padding-top: 150px;
+    }
+  
+  #redes{
+    float: right;
+  }
+  li{
+    float:right;
+    padding: 15px;
+  }
+  #final{
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 10px;
+    padding: 15px;
+    margin-left: 100px;
+    position: absolute;
+  
+  }
