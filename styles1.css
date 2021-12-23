@@ -1,0 +1,13 @@
+
+#textos {
+    text-align: right;
+    margin-left: 0;
+    transform: translate(0, -26px);
+    }
+    h1{
+        transform: translate(170px, 0);
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 64px;
+        margin-top: 200px;
+        margin-left:0;
+    }
